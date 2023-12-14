@@ -1,0 +1,322 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #94C6F2;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.315);
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+div.menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+div.menu a:hover {
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+}
+
+div.menu {
+    width: 50%;
+}
+
+div.menu>ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+div.social {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+div.social>abbr {
+    margin: 4px 5px 0px 5px;
+    transition: all 0.5s;
+}
+
+div.social>abbr:hover {
+    opacity: 0.3;
+    transform: scale(0.9);
+}
+
+body {
+    background-color: #87cefa;
+}
+
+main {
+    height: 90vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.eu {
+    background-color: white;
+    height: 400px;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.400);
+    transition: all 0.9s;
+}
+
+div.eu h2 {
+    background-color: #172833;
+    color: white;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.eu ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.eu:hover {
+    scale: 1.1;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.150);
+}
+
+div.profissional {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 400px;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.400);
+    transition: all 0.9s;
+}
+
+div.profissional h2 {
+    background-color: #172833;
+    color: white;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.profissional ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.profissional:hover {
+    scale: 1.1;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.150);
+}
+
+div.competencias {
+    background-color: white;
+    height: 400px;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.400);
+    transition: all 0.9s;
+}
+
+div.competencias h2 {
+    background-color: #172833;
+    color: white;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.competencias ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.competencias:hover {
+    scale: 1.1;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.150);
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #5D667A;
+}
+
+footer>p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+}
+
+
+@media (max-width:1024px) and (orientation: landscape) {
+
+    main{
+        height: auto;
+    }
+
+    div.eu {
+        height: 450px;
+        width: 30%;
+        margin: 10px;
+    }
+
+    .eu:hover{
+        scale: 1;
+    }
+
+    div.profissional {
+        height: 450px;
+        width: 30%;
+        margin: 10px;
+    }
+
+    .profissional:hover{
+        scale: 1;
+    }
+
+    div.competencias {
+        height: 450px;
+        width: 30%;
+        margin: 10px;
+    }
+
+    .competencias:hover{
+        scale: 1;
+    }
+
+    footer{
+        position: relative;
+    }
+}
+
+@media (max-width:380px) {
+
+    div.menu {
+        width: 70%;
+    }
+
+    div.social {
+        width: 30%
+    }
+
+    div.menu ul {
+        justify-content: space-between;
+    }
+
+    main {
+        height: 90%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.eu {
+        height: 320px;
+        margin: 10px;
+    }
+
+    .eu:hover {
+        scale: 1;
+    }
+
+    div.profissional {
+        height: 320px;
+        margin: 10px;
+    }
+
+    .profissional:hover {
+        scale: 1;
+    }
+
+    div.competencias {
+        height: 300px;
+        margin: 10px;
+    }
+
+    .competencias:hover {
+        scale: 1;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+@media (min-width:380px) and (max-width: 588px) {
+
+    div.menu {
+        width: 70%;
+    }
+
+    div.social {
+        width: 30%
+    }
+
+
+    div.menu ul {
+        justify-content: space-between;
+
+    }
+
+    main {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+    }
+
+    div.eu {
+        height: 300px;
+        margin: 10px;
+    }
+
+    .eu:hover {
+        scale: 1;
+    }
+
+    div.profissional {
+        height: 300px;
+        margin: 10px;
+    }
+
+    .profissional:hover {
+        scale: 1;
+    }
+
+    div.competencias {
+        height: 300px;
+        margin: 10px;
+    }
+
+    .competencias:hover {
+        scale: 1;
+    }
+
+    footer {
+        position: relative;
+    }
+}
