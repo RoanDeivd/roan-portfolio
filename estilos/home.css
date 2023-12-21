@@ -212,6 +212,10 @@ footer>p {
         height: 300px;
         width: 300px;
     }
+
+    footer {
+        position: relative;
+    }
 }
 
 @media (max-width:768px) {
