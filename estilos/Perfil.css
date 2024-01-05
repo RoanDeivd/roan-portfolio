@@ -76,7 +76,7 @@ div.eu {
     height: 400px;
     width: 450px;
     border-radius: 20px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.400);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.500);
     transition: all 0.9s;
 }
 
@@ -96,7 +96,7 @@ div.eu h2 {
 
 .eu:hover {
     scale: 1.1;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.150);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.250);
 }
 
 div.profissional {
@@ -106,7 +106,7 @@ div.profissional {
     height: 400px;
     width: 450px;
     border-radius: 20px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.400);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.500);
     transition: all 0.9s;
 }
 
@@ -126,7 +126,7 @@ div.profissional h2 {
 
 .profissional:hover {
     scale: 1.1;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.150);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.250);
 }
 
 div.competencias {
@@ -134,7 +134,7 @@ div.competencias {
     height: 400px;
     width: 450px;
     border-radius: 20px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.400);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.500);
     transition: all 0.9s;
 }
 
@@ -154,7 +154,7 @@ div.competencias h2 {
 
 .competencias:hover {
     scale: 1.1;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.150);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.250);
 }
 
 footer {
