@@ -125,6 +125,7 @@ footer {
 }
 
 footer>p {
+    font-style: italic;
     color: white;
     text-align: center;
     font-weight: bold;
